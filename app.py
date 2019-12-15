@@ -59,5 +59,10 @@ def mmimg():
     return render_template('mmimg.html')
 
 
+@app.route('/mmindex')
+def mmindex():
+    return render_template('mmindex.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)

@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa457b5-ee08-4d07-9e06-11b7b314afb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/img/dinosaur-320.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/dinosaur-480.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/dinosaur-800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/firefox-addons-120w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/firefox-addons-400w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/firefox-addons.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/firefox_logo-only_RGB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/firefox_logo-only_RGB_120w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/firefox_logo-only_RGB_400w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/mozilla-dinosaur-head-120w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/mozilla-dinosaur-head-400w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/mozilla-dinosaur-head.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/red-panda-1200w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/red-panda-portrait-600w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/red-panda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/mmindex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mmimg.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mmimg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +116,7 @@
       <workItem from="1575649225160" duration="1336000" />
       <workItem from="1575713268755" duration="23953000" />
       <workItem from="1575882262786" duration="406000" />
-      <workItem from="1576387777260" duration="18155000" />
+      <workItem from="1576387777260" duration="21576000" />
     </task>
     <servers />
   </component>
