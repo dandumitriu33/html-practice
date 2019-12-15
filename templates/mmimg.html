@@ -93,6 +93,29 @@
         width="300">
 </p>
 
+<p>
+    Image scaling for different screens horizontal/vertical
+</p>
+<img srcset="/static/img/dinosaur-320.jpg 320w,
+             /static/img/dinosaur-480.jpg 480w,
+             /static/img/dinosaur-800.jpg 800w"
+     sizes="(max-width: 320px) 280px,
+            (max-width: 480px) 440px,
+            800px"
+     src="/static/img/dinosaur-800.jpg" alt="Dino boy.">
+<p> Resolution based changes
+    <img srcset="/static/img/dinosaur-320.jpg,
+                 /static/img/dinosaur-480.jpg 1.5x,
+                 /static/img/dinosaur-800.jpg 2x"
+         src="/static/img/dinosaur-800.jpg" alt="Dino boy.">
+</p>
+<p>The picture tag - different zoomed in pictures for different size screens
+    <picture>
+      <source media="(max-width: 799px)" srcset="/static/img/dinosaur-480.jpg">
+      <source media="(min-width: 800px)" srcset="/static/img/dinosaur-800.jpg">
+      <img src="/static/img/dinosaur-800.jpg" alt="Dino boy.">
+    </picture>
+</p>
 
 
 {% endblock body %}
