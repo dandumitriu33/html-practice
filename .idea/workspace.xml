@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa457b5-ee08-4d07-9e06-11b7b314afb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/img/download.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/firefox-addons-120w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/firefox-addons-400w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/firefox-addons.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/firefox_logo-only_RGB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/firefox_logo-only_RGB_120w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/firefox_logo-only_RGB_400w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/mozilla-dinosaur-head-120w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/mozilla-dinosaur-head-400w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/mozilla-dinosaur-head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/red-panda-1200w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/red-panda-portrait-600w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/red-panda.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mmindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/advanced-tables.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../askmate/ask-mate-python" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -116,7 +104,7 @@
       <workItem from="1575649225160" duration="1336000" />
       <workItem from="1575713268755" duration="23953000" />
       <workItem from="1575882262786" duration="406000" />
-      <workItem from="1576387777260" duration="21576000" />
+      <workItem from="1576387777260" duration="28414000" />
     </task>
     <servers />
   </component>
@@ -127,32 +115,32 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="263" y="287" width="424" height="484" key="FileChooserDialogImpl" timestamp="1575882665157">
+    <state x="263" y="287" width="424" height="484" key="FileChooserDialogImpl" timestamp="1576419659089">
       <screen x="0" y="27" width="1920" height="1006" />
     </state>
-    <state x="263" y="287" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1006@0.27.1920.1006" timestamp="1575882665157" />
-    <state width="914" height="261" key="GridCell.Tab.0.bottom" timestamp="1576391546417">
+    <state x="263" y="287" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1006@0.27.1920.1006" timestamp="1576419659089" />
+    <state width="925" height="261" key="GridCell.Tab.0.bottom" timestamp="1576425161004">
       <screen x="0" y="27" width="1920" height="1006" />
     </state>
-    <state width="914" height="261" key="GridCell.Tab.0.bottom/0.27.1920.1006@0.27.1920.1006" timestamp="1576391546417" />
-    <state width="914" height="261" key="GridCell.Tab.0.center" timestamp="1576391546417">
+    <state width="925" height="261" key="GridCell.Tab.0.bottom/0.27.1920.1006@0.27.1920.1006" timestamp="1576425161004" />
+    <state width="925" height="261" key="GridCell.Tab.0.center" timestamp="1576425161003">
       <screen x="0" y="27" width="1920" height="1006" />
     </state>
-    <state width="914" height="261" key="GridCell.Tab.0.center/0.27.1920.1006@0.27.1920.1006" timestamp="1576391546417" />
-    <state width="914" height="261" key="GridCell.Tab.0.left" timestamp="1576391546416">
+    <state width="925" height="261" key="GridCell.Tab.0.center/0.27.1920.1006@0.27.1920.1006" timestamp="1576425161003" />
+    <state width="925" height="261" key="GridCell.Tab.0.left" timestamp="1576425161001">
       <screen x="0" y="27" width="1920" height="1006" />
     </state>
-    <state width="914" height="261" key="GridCell.Tab.0.left/0.27.1920.1006@0.27.1920.1006" timestamp="1576391546416" />
-    <state width="914" height="261" key="GridCell.Tab.0.right" timestamp="1576391546417">
+    <state width="925" height="261" key="GridCell.Tab.0.left/0.27.1920.1006@0.27.1920.1006" timestamp="1576425161001" />
+    <state width="925" height="261" key="GridCell.Tab.0.right" timestamp="1576425161003">
       <screen x="0" y="27" width="1920" height="1006" />
     </state>
-    <state width="914" height="261" key="GridCell.Tab.0.right/0.27.1920.1006@0.27.1920.1006" timestamp="1576391546417" />
+    <state width="925" height="261" key="GridCell.Tab.0.right/0.27.1920.1006@0.27.1920.1006" timestamp="1576425161003" />
     <state x="143" y="246" width="672" height="678" key="search.everywhere.popup" timestamp="1575528488248">
       <screen x="0" y="27" width="1920" height="1006" />
     </state>
     <state x="143" y="246" width="672" height="678" key="search.everywhere.popup/0.27.1920.1006@0.27.1920.1006" timestamp="1575528488248" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/htmlpractice$app.coverage" NAME="app Coverage Results" MODIFIED="1576387788718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/htmlpractice$app.coverage" NAME="app Coverage Results" MODIFIED="1576425160982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

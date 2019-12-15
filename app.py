@@ -64,5 +64,10 @@ def mmindex():
     return render_template('mmindex.html')
 
 
+@app.route('/advanced-tables')
+def advanced_tables():
+    return render_template('advanced-tables.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)

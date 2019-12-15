@@ -19,47 +19,31 @@
       <h1>Header</h1>
     </header>
 
-
-    <nav class="navigation">
-      <ul>
-        <li><a href="{{ url_for('home') }}">Home</a></li>
-        <li><a href="{{ url_for('overview') }}">Overview</a></li>
-        <li><a href="{{ url_for('text_fundamentals') }}">Text fundamentals</a></li>
-        <li><a href="{{ url_for('what_hyperlink') }}">What's a hyperlink</a></li>
-        <li><a href="{{ url_for('advanced_text_formatting') }}">Advanced text formatting</a></li>
-        <li><a href="{{ url_for('structure') }}">Structure</a></li>
-        <li><a href="{{ url_for('example') }}">Example structure</a></li>
-        <li><a href="{{ url_for('debugging') }}">Debugging</a></li>
-        <li><a href="{{ url_for('letter') }}">Exercise: letter</a></li>
-        <li><a href="{{ url_for('exercise_website') }}">Exercise: website</a></li>
-        <li><a href="{{ url_for('mmimg') }}">Multimedia</a></li>
-        <li><a href="{{ url_for('mmindex') }}">Multimedia Exercise</a></li>
-      </ul>
-
        <!-- A Search form is another common non-linear way to navigate through a website. -->
 
        <form>
          <input type="search" name="q" placeholder="Search query">
          <input type="submit" value="Go!">
        </form>
+        <a href="{{ url_for('home') }}"><button>Intro</button></a>
+        <a href="{{ url_for('overview') }}"><button>Overview</button></a>
+        <a href="{{ url_for('text_fundamentals') }}"><button>Text fundamentals</button></a>
+        <a href="{{ url_for('what_hyperlink') }}"><button>What's a hyperlink</button></a>
+        <a href="{{ url_for('advanced_text_formatting') }}"><button>Advanced text formatting</button></a>
+        <a href="{{ url_for('structure') }}"><button>Structure</button></a>
+        <a href="{{ url_for('example') }}"><button>Example</button></a>
+        <a href="{{ url_for('debugging') }}"><button>Debugging</button></a>
+        <a href="{{ url_for('letter') }}"><button>Exercise letter</button></a>
+        <a href="{{ url_for('exercise_website') }}"><button>Exercise website</button></a>
+        <a href="{{ url_for('mmimg') }}"><button>Multimedia</button></a>
+        <a href="{{ url_for('mmindex') }}"><button>Multimedia Exercise</button></a>
+        <a href="{{ url_for('advanced_tables') }}"><button>Advanced Tables</button></a>
 
      </nav>
 
     <main>
-        <aside>
-            <a href="{{ url_for('home') }}"><button>Intro</button></a>
-            <a href="{{ url_for('overview') }}"><button>Overview</button></a>
-            <a href="{{ url_for('text_fundamentals') }}"><button>Text fundamentals</button></a>
-            <a href="{{ url_for('what_hyperlink') }}"><button>What's a hyperlink</button></a>
-            <a href="{{ url_for('advanced_text_formatting') }}"><button>Advanced text formatting</button></a>
-            <a href="{{ url_for('structure') }}"><button>Structure</button></a>
-            <a href="{{ url_for('example') }}"><button>Example</button></a>
-            <a href="{{ url_for('debugging') }}"><button>Debugging</button></a>
-            <a href="{{ url_for('letter') }}"><button>Exercise letter</button></a>
-            <a href="{{ url_for('exercise_website') }}"><button>Exercise website</button></a>
-            <a href="{{ url_for('mmimg') }}"><button>Multimedia</button></a>
-            <a href="{{ url_for('mmindex') }}"><button>Multimedia Exercise</button></a>
-        </aside>
+
+
     </main>
 
 
