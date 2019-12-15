@@ -8,7 +8,7 @@
 
 {% block body %}
 
-<h1>&lt;img&gt; &lt;video&gt; &lt;audio&gt; &lt;iframe&gt; &lt;embed&gt; &lt;object&gt; </h1>
+<h1>&lt;img&gt; &lt;video&gt; &lt;audio&gt; &lt;iframe&gt; &lt;embed&gt; &lt;object&gt; &lt;svg&gt;</h1>
 
 <figure>
     <img src="/static/img/dinosaur.jpg"
@@ -70,6 +70,33 @@
     </a>
   </p>
 </object>
+<p>
+    <svg version="1.1"
+         baseProfile="full"
+         width="300" height="200"
+         xmlns="http://www.w3.org/2000/svg">
+      <rect width="100%" height="100%" fill="black" />
+      <circle cx="150" cy="100" r="90" fill="blue" />
+    </svg>
+</p>
 
+
+<p>
+    <iframe src="/static/img/dinosaur.svg" width="500" height="500" sandbox>
+        <img src="/static/img/dinosaur.svg" alt="Dinosaur vector graphic." />
+    </iframe>
+</p>
+<p>
+    <img
+        src="/static/img/dinosaur.svg"
+        alt="Dinosaur vector graphic."
+        width="300">
+</p>
+
+<svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+  <rect width="5" height="5">
+    <animate attributeName="rx" values="0;5;0" dur="3s" repeatCount="indefinite" />
+  </rect>
+</svg>
 
 {% endblock body %}
