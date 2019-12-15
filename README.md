@@ -1,10 +1,12 @@
-#Mozilla Developer Network - HTML practice repository
+# Mozilla Developer Network - HTML practice repository
 
 This is just an educational/practice repository for html with a terrible looking site made in Flask.
 
 The MDN tutorial can be found here: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML
 
 ## Installation
+
+**Note**: Installation process may be different depending on operating system.  
 
 If you want to see this project you can follow these steps:
 1. Install Python 3 - https://www.python.org/  
