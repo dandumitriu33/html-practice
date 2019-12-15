@@ -22,6 +22,11 @@ Pip is needed to install Flask and Virtualenv
         virtualenv venv
         source venv/bin/activate
         pip install -U Flask  
+        
+    On Ubuntu you can now run 
+    
+        pip install -r requirements.txt
+        
 5. Run the server by typing  
 
         python3 app.py
@@ -30,3 +35,4 @@ Pip is needed to install Flask and Virtualenv
 Some more info on installing the components:  
 - Installing virtualenv - https://virtualenv.pypa.io/en/latest/installation/
 - Installing Flask - https://pypi.org/project/Flask/
+- Using pip freeze and installing from requirements.txt - https://pip.pypa.io/en/stable/reference/pip_freeze/
