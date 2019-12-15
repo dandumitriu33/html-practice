@@ -15,9 +15,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/html-practice" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UYFldMYeUvtbq2yKUDQYEJtd4V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -94,7 +95,7 @@
       <workItem from="1575649225160" duration="1336000" />
       <workItem from="1575713268755" duration="23953000" />
       <workItem from="1575882262786" duration="406000" />
-      <workItem from="1576387777260" duration="3001000" />
+      <workItem from="1576387777260" duration="3253000" />
     </task>
     <servers />
   </component>
