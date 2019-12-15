@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block head %}
-    <title> &lt;img&gt;</title>
+    <title> &lt;img&gt; &lt;video&gt; &lt;audio&gt;</title>
 {% endblock head %}
 
 
@@ -15,6 +15,24 @@
          title="A T-rex drawn in paint.">
     <figcaption>A T-rex low quality drawing by me.</figcaption>
 </figure>
+
+<video controls width="400" height="400"
+    muted
+    preload="none"
+    poster="/static/img/poster.jpg">
+    <source src="/static/video/rabbit320.mp4" type="video/mp4">
+    <source src="/static/video/rabbit320.webm" type="video/webm">
+    <track kind="subtitles" src="/static/video/rabbit.vtt" srclang="en">
+    <p>Here is a link to the <a href="/static/video/rabbit320.mp4">rabbit video</a>.</p>
+</video>
+
+<p>
+    <audio controls>
+        <source src="/static/audio/taptaptap.mp3" type="audio/mp3">
+        <source src="/static/audio/taptaptap.ogg" type="audio/ogg">
+        <p>If your browser doesn't support mp3 here's <a href="/static/audio/taptaptap.mp3">the file</a>.</p>
+    </audio>
+</p>
 
 
 {% endblock body %}
