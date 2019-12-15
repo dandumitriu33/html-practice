@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Overview</title>
+{% endblock head %}
+
+{% block body %}
+<p>The head of an HTML document is the part that is not displayed in the web browser when the page is loaded. It contains information such as the page &lt;title&gt;, links to CSS (if you choose to style your HTML content with CSS), links to custom favicons, and other metadata (data about the HTML, such as the author, and important keywords that describe the document.) In this article we'll cover all of the above and more, in order to give you a good basis for working with markup.</p>
+<p>Because we have UTF-8 encoding in the title, we can display this Japanese example: ご飯が熱い。</p>
+<p>Specifying a <strong>description</strong> &lt;meta name="description" content="vanilla icecream, chocolate icecream"&gt; that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines (such activities are termed Search Engine Optimization, or SEO.)</p>
+
+<p>To further enrich your site design, you can add references to custom icons
+    in your metadata, and these will be displayed in certain contexts.
+    The most commonly used of these is the favicon (short for "favorites
+    icon", referring to its use in the "favorites" or "bookmarks" lists in
+    browsers).</p>
+<p>The humble favicon has been around for many years. It is the first icon
+    of this type: a 16-pixel square icon used in multiple places. You may
+    see (depending on the browser) favicons displayed in the browser tab
+    containing each open page, and next to bookmarked pages in the bookmarks
+    panel.</p>
+<p>
+    <ol>
+<p>A favicon can be added to your page by:</p>
+        <li>Saving it in the same directory as the site's index page, saved
+            in .ico format (most browsers will support favicons in more
+            common formats like .gif or .png, but using the ICO format will
+            ensure it works as far back as Internet Explorer 6.)</li>
+        <li>Adding the following line into your HTML's &lt;head&gt; block to
+            reference it:<br>
+            &lt;link rel="shortcut icon" href="favicon.ico" type="image/x-icon"</li>
+    </ol>
+</p>
+{% endblock body %}

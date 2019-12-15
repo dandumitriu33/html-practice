@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Document and website structure</title>
+
+{% endblock head %}
+
+
+{% block body %}
+<h1>Document and website structure</h1>
+<h2>Basic sections of a document</h2>
+<p><img src="https://mdn.mozillademos.org/files/12417/sample-website.png" width="800"></p>
+<p>
+    In your HTML code, you can mark up sections of content based on their functionality —
+    you can use elements that represent the sections of content described above
+    unambiguously, and assistive technologies like screenreaders can recognise those
+    elements and help with tasks like "find the main navigation", or "find the main content."
+    As we mentioned earlier in the course, there are a number of consequences of not using
+    the right element structure and semantics for the right job.
+
+    <ul>To implement such semantic mark up, HTML provides dedicated tags that you can use to represent such sections, for example:
+
+    <li>header: &lt;header&gt;.</li>
+    <li>navigation bar: &lt;nav&gt;.</li>
+    <li>main content: &lt;main&gt;, with various content subsections represented by &lt;article&gt;, &lt;section&gt;, and &lt;div&gt; elements.</li>
+    <li>sidebar: &lt;aside&gt;; often placed inside &lt;main&gt;.</li>
+    <li>footer: &lt;footer&gt;.</li>
+    </ul>
+</p>
+
+<h2>Other non-semantic wrappers</h2>
+<p>The King walked drunkenly back to his room at 01:00, the beer doing nothing to aid
+him as he staggered through the door <span class="editor-note">[Editor's note: At this point in the
+play, the lights should be down low]</span>.</p>
+<pre>
+<p>
+   <span class="editor-note">There once was a man named O'Dell                </span><br>
+   <span class="editor-note">Who loved to write HTML                          </span><br>
+   <span class="editor-note">But his structure was bad, his semantics were sad</span><br>
+   <span class="editor-note">and his markup didn't read very well.            </span></p>
+</pre>
+
+<p>Ron was backed into a corner by the marauding netherbeasts. Scared, but
+    determined to protect his friends, he raised his wand and prepared to
+    do battle, hoping that his distress call had made it through.</p>
+<hr>
+<p>Meanwhile, Harry was sitting at home, staring at his royalty statement
+    and pondering when the next spin off series would come out, when an
+    enchanted distress letter flew through his window and landed in his
+    lap. He read it hazily and sighed; "better get back to work then",
+    he mused.</p>
+
+
+{% endblock body %}

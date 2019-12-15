@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block head%}
+
+<title>Debugging</title>
+
+{% endblock head %}
+
+
+{% block body %}
+
+<main>
+<h1>Debugging</h1>
+
+    <h2>The browser DOM section.</h2>
+
+    <p><strong>The Document Object Model (DOM)</strong> is the data representation of the
+        objects that comprise the structure and content of a document on
+        the web.
+    </p>
+    <p>
+        It is a programming interface for
+        HTML and XML documents. It represents the page so that programs
+        can change the document structure, style, and content. The DOM
+        represents the document as nodes and objects. That way,
+        programming languages can connect to the page.
+    </p>
+    <p>
+        Debugging with DOM is the part where the browser rebuilds missing
+        parts of code and you see the changes in the DOM section of the
+        browser. <span class="editor-note">Chrome > right click > Inspect
+        > Elements > DOM Breakpoints</span>
+    </p>
+
+    <h2>The W3C HTML validation service</h2>
+
+    <p>
+        An amazing tool to easily spot bugs/issues in larger html files
+        that are harder to just scan visually by the person debugging.
+    </p>
+    <p>
+        <a href="https://validator.w3.org/" title="W3C Markup Validation Service"
+        >W3C Markup Validation</a>
+    </p>
+
+
+
+</main>
+
+{% endblock body %}

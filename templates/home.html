@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>HTML with MDN</title>
+{% endblock head %}
+
+
+{% block body%}
+
+<div class="content">
+    <h1 style="text-align: center">Learning html from <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" title="Mozilla Developer Network" target="_blank">mdn</a></h1>
+    <p title="what, title on a paragraph, damn">Hey,<br>
+        This is just a <em>page</em> where I <strong>test</strong> html tags.<br>
+    Nothing fancy.<br>
+    Thanks.</p>
+
+
+    <p>This is paragraph text. Some of it is <em>italic</em> and some is <strong>bold</strong>.</p>
+
+
+    <p>Here is an image. This is an element without a closing tag.</p>
+    <img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" width="100" title="the Mozilla Firefox logo">
+    as this text is not a new paragraph it shows up after the picture
+
+
+    <p>
+        <span class="editor-note">My cat is very grumpy. This has an attribute.</span>
+    </p>
+
+
+    <p>This is the link to <a href="https://www.mozilla.org/" title="The Mozilla homepage" target="_blank">Mozilla</a>'s home page.</p>
+
+
+    <p>Active default text input type <input type="text"></p>
+    <p>Text input type with the attribute disabled <input type="text" disabled="disabled"></p>
+
+
+    <p>Wait, what are these? &lt;, &gt;, &quot;, &apos;, &amp; in here?<br>
+        Oh, lt; gt; quot; apos; and amp; in the code with &amp; in front of them.<br>
+        In HTML, you define a paragraph using the &lt;p&gt; element.</p>
+</div>
+
+{% endblock body %}

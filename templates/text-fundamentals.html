@@ -1,0 +1,160 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Text fundamentals</title>
+{% endblock head %}
+
+{% block body %}
+
+<p>Paragraph example...again</p>
+
+<h1>Title of story h1 example...again</h1>
+
+<p>How are h's used and why</p>
+
+<h1>The Crushing Bore (the main heading, the title of the story)</h1>
+<p>by Chris Mills (normal paragraph)</p>
+<h2>Chapter 1: The dark night (title of chapters)</h2>
+<p>It was a dark night. Somewhere an owl hooted. The rain lashed down
+on the... (another simple paragraph)</p>
+<p> Testing if the <a href="#Important_notice"> Important notice </a>
+    points to the id spot on the page. Doesn't work with full link because I haven't
+    figured out how to do it in Flask yet. Works if it is left just "#Important_notice"</p>
+<h2>Chapter 2: The eternal silence</h2>
+<p>Our protagonist could not so much as a whisper out of the shadowy
+    figure...</p>
+<h3>The specter speaks (sub-section of a chapter, size 3 h)</h3>
+<p>Several more hours had passed, when all of a sudden the specter sat
+bolt upright and exclaimed, "Please have mercy on my soul!"</p>
+
+<ul>It's really up to you what exactly the elements involved represent, as
+    long as the hierarchy makes sense. You just need to bear in mind a few
+    best practices as you create such structures:
+
+    <li>Preferably you should just use a single &lt;h1&gt; per page —
+        this is the top level heading, and all others sit below this in
+        the hierarchy.</li>
+    <li>Make sure you use the headings in the correct order in the
+        hierarchy. Don't use &lt;h3&gt; elements to represent subheadings,
+        followed by &lt;h2&gt; elements to represent sub-subheadings —
+        that doesn't make sense and will lead to weird results.</li>
+    <li>Of the six heading levels available, you should aim to use no
+        more than three per page, unless you feel it is necessary.
+        Documents with many levels (i.e., a deep heading hierarchy)
+        become unwieldy and difficult to navigate. On such occasions,
+        it is advisable to spread the content over multiple pages if
+        possible.</li>
+</ul>
+
+<span style="font-size: 32px; margin: 21px 0; display: block;">Is
+    this a top level heading? (&lt;span&gt;)</span>
+
+<ul> unordered list example (global css is applied)
+    <li>milk</li>
+    <li>eggs</li>
+    <li>bread</li>
+    <li>hummus</li>
+</ul>
+
+<ol>
+  <li>Drive to the end of the road</li>
+  <li>Turn right</li>
+  <li>Go straight across the first two roundabouts</li>
+  <li>Turn left at the third roundabout</li>
+  <li>The school is on your right, 300 meters up the road</li>
+</ol>
+
+<h2> Quick hummus recipe</h2>
+<p>This recipe makes quick, tasty hummus, with no messing. It has
+    been adapted from a number of different recipes that I have read
+    over the years.</p>
+<p>Hummus is a delicious thick paste used heavily in Greek and Middle
+    Eastern dishes. It is very tasty with salad, grilled meats and
+    pitta breads.</p>
+
+<ul><h3>Ingredients:</h3>
+    <li>1 can (400g) of chick peas (garbanzo beans)</li>
+    <li>175g of tahini</li>
+    <li>6 sundried tomatoes</li>
+    <li>Half a red pepper</li>
+    <li>A pinch of cayenne pepper</li>
+    <li>1 clove of garlic</li>
+    <li>A dash of olive oil</li>
+</ul>
+
+<ol><h3>Instructions</h3>
+    <li>Remove the skin from the garlic, and chop coarsely</li>
+    <li>Remove all the seeds and stalk from the pepper, and chop coarsely</li>
+    <li>Add all the ingredients into a food processor</li>
+    <li>Process all the ingredients into a paste</li>
+        <ul>
+          <li>If you want a coarse "chunky" hummus, process it for a short time.</li>
+          <li>If you want a smooth hummus, process it for a longer time.</li>
+        </ul>
+    <li>If you want a coarse "chunky" hummus, process it for a short time</li>
+    <li>If you want a smooth hummus, process it for a longer time</li>
+</ol>
+<p>For a different flavour, you could try blending in a small measure of
+    lemon and coriander, chili pepper, lime and chipotle, harissa and mint,
+    or spinach and feta cheese. Experiment and see what works for you.</p>
+<h3>Storage</h3>
+<p>
+    Refrigerate the finished hummus in a sealed container. You should be
+    able to use it for about a week after you've made it. If it starts to
+    become fizzy, you should definitely discard it.
+</p>
+<p>
+    Hummus is suitable for freezing; you should thaw it and use it within
+    a couple of months.
+</p>
+<h3>Emphasis and strong &lt;em&gt; &lt;strong&gt;.</h3>
+<p>Emphasis: I am <em>glad</em> you weren't <em>late</em>.</p>
+<p>Strong: This liquid is <strong>highly toxic.</strong></p>
+<h1 id="Important_notice">Important notice</h1>
+<p>On Sunday January 9th 2010, a <em>gang of goths</em> were
+  spotted stealing several garden gnomes from a
+  shopping center in downtown Milwaukee. They were
+  all wearing <em>green jumpsuits</em> and <em>silly hats</em>, and
+  seemed to be having a whale of a time. If anyone
+   has any information about this incident, please
+    contact the police <strong>now</strong>.</p>
+
+
+<p><strong>A kind warning about underline:</strong> People strongly associate underlining
+    with hyperlinks. Therefore, on the Web, it's best to underline only
+    links. Use the &lt;u&gt; element when it's semantically appropriate, but
+        consider using CSS to change the default underline to something
+        more appropriate on the Web. The example below illustrates how it
+        can be done.</p>
+
+<!-- scientific names -->
+<p>
+  The Ruby-throated Hummingbird (<i>Archilochus colubris</i>)
+  is the most common hummingbird in Eastern North America.
+</p>
+
+<!-- foreign words -->
+<p>
+  The menu was a sea of exotic words like <i lang="uk-latn">vatrushka</i>,
+  <i lang="id">nasi goreng</i> and <i lang="fr">soupe à l'oignon</i>.
+</p>
+
+<!-- a known misspelling -->
+<p>
+  Someday I'll learn how to <u style="text-decoration-line: underline; text-decoration-style: wavy;">spel</u> better.
+</p>
+
+<!-- Highlight keywords in a set of instructions -->
+<ol>
+  <li>
+    <b>Slice</b> two pieces of bread off the loaf.
+  </li>
+  <li>
+    <b>Insert</b> a tomato slice and a leaf of
+    lettuce between the slices of bread.
+  </li>
+</ol>
+
+
+
+{% endblock body %}

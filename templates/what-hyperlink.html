@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>What's a hyperlink?</title>
+
+{% endblock head %}
+
+
+
+
+{% block body %}
+
+<p>I'm creating a link to
+    <a href="https://www.mozilla.org/en-US/"
+    title="The best place to find more information about Mozilla's
+          mission and how to contribute.">the Mozilla homepage.</a>
+</p>
+
+<p>
+    Another paragraph that has a link to Mozilla but this time <a
+        href="https://www.mozilla.org/en-US/"
+    title="The best place to find more information about Mozilla's
+          mission and how to contribute.">here</a>.
+</p>
+<p>
+    Now a timy paragraph with a tiny icon
+    <a href="home.html" title="Home page of this exercise">
+    <img src="/static/favicon-96x96.png" width="24"
+    alt="made up .png logo for this exercise">
+        </a>
+    that points to the home page of this exercise.
+</p>
+<p>OK so this <a href="text-fundamentals.html#Important_notice">
+    Important notice </a>
+    should point to the Important notice on the text fundamentals page.
+    Doesn't work because I haven't figured out how to do it in Flask yet.
+    Or maybe I misunderstood and it's just for same page travel.
+    No it should work but because the routing is handled by Flask...</p>
+
+
+{% endblock body %}
