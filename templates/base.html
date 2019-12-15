@@ -32,6 +32,7 @@
         <li><a href="{{ url_for('debugging') }}">Debugging</a></li>
         <li><a href="{{ url_for('letter') }}">Exercise: letter</a></li>
         <li><a href="{{ url_for('exercise_website') }}">Exercise: website</a></li>
+        <li><a href="{{ url_for('mmimg') }}">Multimedia img</a></li>
       </ul>
 
        <!-- A Search form is another common non-linear way to navigate through a website. -->
@@ -40,7 +41,11 @@
          <input type="search" name="q" placeholder="Search query">
          <input type="submit" value="Go!">
        </form>
-        <div>
+
+     </nav>
+
+    <main>
+        <aside>
             <a href="{{ url_for('home') }}"><button>Intro</button></a>
             <a href="{{ url_for('overview') }}"><button>Overview</button></a>
             <a href="{{ url_for('text_fundamentals') }}"><button>Text fundamentals</button></a>
@@ -51,9 +56,9 @@
             <a href="{{ url_for('debugging') }}"><button>Debugging</button></a>
             <a href="{{ url_for('letter') }}"><button>Exercise letter</button></a>
             <a href="{{ url_for('exercise_website') }}"><button>Exercise website</button></a>
-        </div>
-     </nav>
-
+            <a href="{{ url_for('mmimg') }}"><button>Multimedia img</button></a>
+        </aside>
+    </main>
 
 
     {% block body %}

@@ -54,5 +54,10 @@ def exercise_website():
     return render_template('exercise-website.html')
 
 
+@app.route('/mmimg')
+def mmimg():
+    return render_template('mmimg.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
