@@ -23,6 +23,7 @@ Pip is needed to install Flask and Virtualenv
         source venv/bin/activate
         pip install -U Flask  
 5. Run the server by typing  
+
         python3 app.py
 6. On your browser, go to http://127.0.0.1:5000
 
