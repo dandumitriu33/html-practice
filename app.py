@@ -69,5 +69,15 @@ def advanced_tables():
     return render_template('advanced-tables.html')
 
 
+@app.route('/forms')
+def forms():
+    return render_template('forms.html')
+
+
+@app.route('/exercise-forms')
+def exercise_forms():
+    return render_template('exercise-forms.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
